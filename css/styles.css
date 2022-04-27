@@ -20,12 +20,12 @@ body {
     
 }
 
-.container {
+header {
     background-color: var(--color_white);
     width: 90%;
     margin: 0 auto;
     margin-top: 15px;
-    height: 95vh;
+    
 }
 
 .navbar {
@@ -64,4 +64,101 @@ a:hover {
     text-decoration:none;
     transition: 0.5s;
     color: var(--color_bronze);
+}
+
+.nosotros {
+    background-color: var(--color_white);
+    width: 90%;
+    margin: 0 auto;    
+    height: auto;
+    padding: 2.5rem;
+    display: flex;
+    
+
+}
+
+.quienesosomos{
+    width: 80%;
+
+}
+
+.slogan {
+    color: #45515D;
+    font-size: 2.1rem;
+    margin-bottom: 5px;
+}
+
+.title_nosotros {
+    font-size: 2.3rem;
+    font-weight: 900;
+    color: #45515D;
+    margin-bottom: 5px;
+}
+
+.descrip_nosotros {
+    font-size: 1.5rem;
+    max-width: 70%;
+    margin-top: 10px;
+    text-align:justify;
+    color: #acb5bd;
+}
+
+.botones{
+    width:50%;
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    padding: 1.5rem;
+    color: var(--color_white);
+}
+
+
+.botones .llamada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #29323D;
+    border-radius: 20px;
+    border: none;
+    color: var(--color_white);
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    height: 2.5rem;
+
+}
+
+
+
+
+
+.img_chavezdrive{
+    width: 400px;
+}
+
+.servicios {
+    background-color: #0170B9;
+    width: 90%;
+    margin: 0 auto;    
+    height: auto;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.title_servicios{
+    color: #6EC1E4;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom:15px;
+}
+
+.descrip_servicios{
+    color: var(--color_white);
+    font-size: 1.6rem;
+    text-align: right;
+    text-align: center;
 }

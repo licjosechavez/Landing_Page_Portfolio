@@ -1,0 +1,26 @@
+/* CSV */
+d27c3c,3b94d0,2b2b2b,ffffff
+
+/* With # */
+#d27c3c, #3b94d0, #2b2b2b, #ffffff
+
+/* Array */
+["d27c3c","3b94d0","2b2b2b","ffffff"]
+
+fondo: #EEEEEE
+/* Object */
+{"Bronze":"d27c3c",
+"Tufts Blue":"3b94d0",
+"Jet":"2b2b2b",
+"White":"ffffff"}
+
+/* Extended Array */
+[{"name":"Bronze","hex":"d27c3c","rgb":[210,124,60],"cmyk":[0,41,71,18],"hsb":[26,71,82],"hsl":[26,62,53],"lab":[60,28,48]},{"name":"Tufts Blue","hex":"3b94d0","rgb":[59,148,208],"cmyk":[72,29,0,18],"hsb":[204,72,82],"hsl":[204,61,52],"lab":[59,-7,-38]},{"name":"Jet","hex":"2b2b2b","rgb":[43,43,43],"cmyk":[0,0,0,83],"hsb":[0,0,17],"hsl":[0,0,17],"lab":[18,0,0]},{"name":"White","hex":"ffffff","rgb":[255,255,255],"cmyk":[0,0,0,0],"hsb":[0,0,100],"hsl":[0,0,100],"lab":[100,0,0]}]
+
+/* XML */
+<palette>
+  <color name="Bronze" hex="d27c3c" r="210" g="124" b="60" />
+  <color name="Tufts Blue" hex="3b94d0" r="59" g="148" b="208" />
+  <color name="Jet" hex="2b2b2b" r="43" g="43" b="43" />
+  <color name="White" hex="ffffff" r="255" g="255" b="255" />
+</palette>

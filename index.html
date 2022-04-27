@@ -5,31 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <main>
-        <div class="container">
-            <header>
-                <div class="navbar">
-                    <div class="logo">
-                        <a href="#">
-                            <img src="./img/logo_portfolio.png" alt="logo_web">    
-                        </a>
-                        
-                    </div>
-                    <div class="links">
-                        <ul>
-                            <li><a href="#">Inicio</a></li>
-                            <li><a href="#">Nosotros</a></li>
-                            <li><a href="#">Servicios</a></li>
-                            <li><a href="#">Porfolio</a></li>
-                            <li><a href="#">Contacto</a></li>
-                        </ul>
-                    </div>
+    <header>
+        <nav>
+            <div class="navbar" id="navbar">
+                <div class="logo">
+                    <a href="#">
+                        <img src="./img/logo_portfolio.png" alt="logo_web">    
+                    </a>
+                    
                 </div>
-            </header>
-        </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="#navbar">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#">Porfolio</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section class="nosotros" id="nosotros">
+            <div class="quienesosomos">
+                <h2 class="title_nosotros">Chavezdrive</h2>
+                <span class="slogan">Soluciones Digitales</span>
+            <p class="descrip_nosotros">ChavezDrive nació en el año 2007
+                como una empresa de Diseño Web
+                en La Rioja, con el objetivo de brindar
+                soluciones digitales en toda la provincia.
+            </p>
+            <div class="botones">
+                <a class="llamada" href="tel:3804987672"><i class="llamada fa-brands fa-whatsapp"></i>Llámenos</a> 
+                <a class="llamada" href="#contacto"><i class="fa-solid fa-envelope llamada"></i>Contacto</a>
+                
+            </div>
+            
+            </div>
+            <div class="imagen_quienessomos">
+                <img class="img_chavezdrive" src="./img/nosotros.png" alt="chavezdrive">
+            </div>
+            
+
+
+        </section>
+
+        <section class="servicios" id="servicios">
+
+            <h2 class="title_servicios">Servicios</h2>
+            <p class="descrip_servicios">
+                Como servicio principal ofrecemos desarrollo de 
+                aplicaciones web a medida y diseño de paginas web 
+                elegantes, novedosas y efectivas. Además de brindarles 
+                la creacion de la imagen de su empresa y el manejo de 
+                sus redes sociales.
+            </p>
+
+
+
+        </section>
+        
     </main>
 </body>
 </html>
