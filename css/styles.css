@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@500&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +11,11 @@
     --color_blue: #3b94d0;
     --color_white: #f7f7f7;
     --color_negro: #2A2A2B;
-    --font: 'Roboto', sans-serif;
+    --font: 'Lato', sans-serif;
+    --bold: 900;
+    --medium: 700;
+    --regular: 400;
+    --thin: 300;
 }
 
 body {
@@ -145,6 +148,7 @@ a:hover {
     padding: 2.5rem;
     display: flex;
     flex-direction: column;
+    margin-top: 1rem;
     
 
 }
@@ -162,3 +166,48 @@ a:hover {
     text-align: right;
     text-align: center;
 }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 1px 0px 39px -14px rgba(0, 0, 0, 1);
+}
+
+.info-card {
+    width: 40%;
+    margin-bottom: 2rem;
+  }
+  
+  .card__container {
+    margin-top: 2rem;
+    display: flex;
+    gap: 10rem;
+  }
+
+  .description__section h3 {
+    max-width: 400px;
+    margin-top: 2rem;
+  }
+
+  .card__title{
+      text-align: center;
+      font-weight: var(--medium);
+      padding: 1rem 0;
+      font-size: 1.3rem;
+  }
+
+  .card i{
+      text-align: center;
+      font-size: 4.5rem;
+      color: var(--color_bg);
+  }
+
+  .card p {
+      padding: 1rem 0;
+      text-align: center;
+      font-weight: bold;
+  }
