@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page Portfolio</title>
+    <title>ChavezDrive - </title>
+    <link rel="shortcut icon" href="./img/favicon.png">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -26,7 +27,7 @@
                         <li><a href="#navbar">Inicio</a></li>
                         <li><a href="#nosotros">Nosotros</a></li>
                         <li><a href="#servicios">Servicios</a></li>
-                        <li><a href="#">Porfolio</a></li>
+                        <li><a href="#porfolio">Porfolio</a></li>
                         <li><a href="#contacto">Contacto</a></li>
                     </ul>
                 </div>
@@ -35,6 +36,8 @@
         </nav>
     </header>
     <main>
+
+        <!-- Seccion 1 Nostros -->
         <section class="nosotros" id="nosotros">
             <div class="quienesosomos">
                 <h2 class="title_nosotros">Chavezdrive</h2>
@@ -103,7 +106,114 @@
           </div>
         </div>
       </section>
+
+
+        <!-- Seccion 3 Porfolio -->
+      <section class="porfolio" id="porfolio">
+        
+        <div class="porfolio__content">
+            <h3>NUESTROS TRABAJOS</h3>
+            <p class="title__contacto">
+                PORFOLIO
+            </p>
+            <p class="descrip_porfolio">Lorem ipsum dolor
+                sit amet consectetur adipisicing elit. Qui, 
+                in voluptatem ipsam fugiat rerum omnis quos 
+                architecto tempore ipsa! Quisquam aspernatur, 
+                dolor sit porro accusantium non voluptatem quia 
+                saepe! Earum..
+            </p>
+        </div>
+
+        <div class="card__porfolio" style="--i:url(/img/01_qhia.png)">
+            <div class="card__content">
+                <h2>QHIA - Asesoría Contable e Integral</h2>
+                <span>Sitio institucional</span>
+                <div class="enlaces__card">
+                    <a href="https://www.qhia.com.ar" title="Visitar la web"><i class="fa-solid fa-link"></i></a>
+                    <a href="https://www.qhia.com.ar" title="Ver el código"><i class="fa-solid fa-code"></i></a>
+                </div>
+                
+            </div>
+        </div>
+
+      </section>
+
+
+      <!-- Seccion 4 Contacto -->
+      <section class="contacto">
+
+        <div class="contacto__content">
+            <h3 id="contacto">CONTACTO</h3>
+            <p class="title__contacto">
+                Comunicate con nosotros
+            </p>
+            
+            <div class="iconos__contacto">
+
+              <div class="ico__info">
+                <i class="fa-brands fa-whatsapp"></i>
+                <h4>+54 380 4987672</h4>
+              </div>
+
+              <div class="ico__info">
+                <i class="fa-solid fa-envelope"></i>
+                <h4>web.chavezdrive@gmail.com</h4>
+              </div>  
+
+              <div class="ico__info">
+                <i class="fa-solid fa-location-dot"></i>
+                <h4>Esperanza s/n - Bº Parque Industrial - 
+                    La Rioja - Capital - Argentina</h4>
+              </div>  
+            </div> 
+                <h3 class="seguinos">Seguínos en las redes</h3>
+                <div class="seguimos__social">
+                    <a href="http://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="http://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="contacto__form">
+            <form action="#">
+
+                <label for="apellido_nombre">Apellido y Nombre</label>
+                <input type="text" id="apellido_nombre" name="apellido_nombre">
+            
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+
+                <label for="telefono">Teléfono</label>
+                <input type="text" id="telefono" name="telefono">
+            
+                
+            
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" row="105" ></textarea>
+            
+                <input type="submit" value="Enviar mensaje">
+            
+              </form>
+        </div>
+      </section>
         
     </main>
+    <footer>
+        <div class="footer__container">
+
+            <p>® Todos los derechos reservados | 2022</p>
+
+            <div class="social">
+                <p>Seguínos</p>
+                <a href="http://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="http://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+
+            <div class="afip"><a href="http://qr.afip.gob.ar/?qr=vZ2yozidBJ8EKzV0hiJ9JA,," target="_F960AFIPInfo"><img width="60" src="http://www.afip.gob.ar/images/f960/DATAWEB.jpg" border="0"></a></div>
+
+        </div>
+    </footer>
 </body>
 </html>
